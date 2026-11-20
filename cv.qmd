@@ -20,7 +20,7 @@ Roermond, the Netherlands
 
 ## Professional profile
 
-I am a researcher and engineer with a background in acoustics dating back to 2009. My work combines physics-based and data-driven modelling, system identification, numerical methods, experimental validation, and scientific software development. I have applied these methods to acoustic and vibration systems across academic and industrial settings, including thermoacoustics, aero-vibroacoustics, structural dynamics, railway noise, and ground-borne vibration.
+IIIIIIIII am a researcher and engineer with a background in acoustics dating back to 2009. My work combines physics-based and data-driven modelling, system identification, numerical methods, experimental validation, and scientific software development. I have applied these methods to acoustic and vibration systems across academic and industrial settings, including thermoacoustics, aero-vibroacoustics, structural dynamics, railway noise, and ground-borne vibration.
 
 I am interested in connecting the physics of sound with auditory perception through interpretable, physics-informed data-driven models, including potential applications in biomedical research and societal challenges. I hold a **PhD in Mechanical Engineering (cum laude)** and a **Professional Doctorate in Engineering (PDEng)**.
 
