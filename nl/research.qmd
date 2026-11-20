@@ -1,0 +1,30 @@
+
+---
+title: "Onderzoek"
+description: "Onderzoeksgebieden binnen akoestiek, trillingen en computationele engineering"
+lang: nl
+---
+
+Mijn onderzoeksinteresses omvatten fysische modellering, numerieke berekeningen, experimenteel onderzoek en technisch ontwerp.
+
+## Akoestiek en vibroakoestiek
+
+- Voortplanting van geluidsgolven, geluidopwekking en geluidsbeheersing
+- Vibroakoestische modellering en metingen
+- Akoestiek van spoorwegen en infrastructuursystemen
+
+## Dynamica, stabiliteit en inverse problemen
+
+- Modellering van dynamische systemen en stabiliteitsanalyse
+- Signaalverwerking en inverse methoden
+- Robuuste schatting van parameters op basis van experimentele metingen
+
+## Systeemtechniek en innovatie
+
+- Multidisciplinair ontwerpen en optimaliseren
+- Simulatie, prototyping en experimentele validatie
+- Reproduceerbare computationele werkprocessen
+
+::: {.callout-note}
+De bovenstaande beschrijvingen vormen een eerste opzet. Vervang ze door een selectie van concrete projecten die openbaar gedeeld mogen worden, met verwijzingen naar relevante wetenschappelijke publicaties.
+:::

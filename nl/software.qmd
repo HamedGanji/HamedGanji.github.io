@@ -1,0 +1,38 @@
+---
+title: "Software & Projects"
+description: "Scientific computing, reproducible workflows and engineering software"
+---
+
+I develop tools for modelling, data analysis and engineering applications.
+
+## Scientific Python
+
+Topics include numerical modelling, signal processing, visualization, and reliable scientific software development.
+
+## Selected projects
+
+::: {.feature-grid}
+
+::: {.feature-tile}
+### Acoustic analysis workflows
+
+Signal-processing and measurement-analysis workflows for acoustics research and engineering.
+
+*Add a public repository or project link here.*
+:::
+
+::: {.feature-tile}
+### Dynamic-system modelling
+
+Models and numerical methods for studying dynamic response, stability, and physical systems.
+
+*Add a public repository or project link here.*
+:::
+
+:::
+
+Visit [my GitHub profile](https://github.com/YOUR_GITHUB_USERNAME) to explore public code repositories when available.
+
+::: {.callout-important}
+Do not publish employer-owned source code, client data, unpublished proprietary reports, or confidential datasets without authorization.
+:::

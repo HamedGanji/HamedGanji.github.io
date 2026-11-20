@@ -1,0 +1,12 @@
+---
+title: "Scientific Articles"
+description: "Scientific writing and technical notes"
+listing:
+  contents: "*/index.qmd"
+  type: default
+  sort: "date desc"
+  categories: true
+  feed: true
+---
+
+Notes on acoustics, mathematical modelling, scientific computing and engineering. Code examples are provided for reproducible learning where appropriate.

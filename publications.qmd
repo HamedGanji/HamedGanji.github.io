@@ -1,0 +1,23 @@
+---
+title: "Publications"
+description: "Journal papers, doctoral research and conference publications"
+---
+
+## Doctoral research
+
+**Burner Development Strategies in the Context of Thermoacoustic Instability**  
+PhD thesis, Eindhoven University of Technology (2025).
+
+## Journal papers
+
+Add your verified publications here, preferably with DOI links. A consistent format is:
+
+> Author(s). (Year). **Article title**. *Journal title*. [DOI](https://doi.org/).
+
+## Conference publications
+
+Add selected conference papers, presentations and proceedings here.
+
+::: {.callout-tip}
+Later we can generate this page automatically from your Zotero/BibTeX library, like Robin Lovelace's automated publications page.
+:::

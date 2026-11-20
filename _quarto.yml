@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "posts/**/*.qmd"
+    - "nl/**/*.qmd"
+    
+
+website:
+  title: "Hamed F. Ganji"
+  description: "Research, engineering, acoustics, vibration and scientific computing."
+  navbar:
+    title: "Hamed F. Ganji"
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Software
+        href: software.qmd
+      - text: Articles
+        href: posts/index.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: CV
+        href: cv.qmd
+      - text: Contact
+        href: contact.qmd
+
+    right:
+      - text: "EN / NL"
+        menu:
+          - text: "English"
+            href: index.qmd
+          - text: "Nederlands"
+            href: nl/index.qmd
+      - icon: github
+        href: https://github.com/YOUR_GITHUB_USERNAME
+        aria-label: GitHub profile
+
+  page-footer:
+    left: "© 2026 Hamed F. Ganji"
+    right: "Built with [Quarto](https://quarto.org) · [GitHub](https://github.com/YOUR_GITHUB_USERNAME)"
+  search: true
+  back-to-top-navigation: true
+
+format:
+  html:
+    theme: cosmo
+    css: assets/styles.css
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    link-external-newwindow: true
+    smooth-scroll: true
+    fig-align: center
+
+execute:
+  freeze: auto

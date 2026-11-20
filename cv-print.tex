@@ -1,0 +1,563 @@
+\documentclass[a4paper,11pt]{article}
+% Package imports
+\usepackage{progressbar}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome5}
+
+% Color definitions
+\definecolor{darkblue}{RGB}{0,0,139}
+
+% Page layout
+\setlength{\multicolsep}{0pt} 
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+\setlength{\footskip}{5pt} % Addressing fancyhdr warning
+
+% Hyperlink setup (moved after fancyhdr to address warning)
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    filecolor=darkblue,
+    urlcolor=darkblue,
+}
+
+% Custom box settings
+\usepackage[most]{tcolorbox}
+\tcbset{
+    frame code={},
+    center title,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    colback=gray!20,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=-2mm,
+    boxsep=4pt,
+    arc=0pt,outer arc=0pt,
+}
+
+% URL style
+\urlstyle{same}
+
+% Text alignment
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}
+  }
+}
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}} 
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand{\labelitemii}{$\vcenter{\hbox{\tiny$\circ$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm,itemsep=0.5mm]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\cvsection}[1]{%
+\vspace{2mm}
+\begin{tcolorbox}
+    \textbf{\large #1}
+\end{tcolorbox}
+    \vspace{-4mm}
+}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+
+% Commands for icon sizing and positioning
+\newcommand{\socialicon}[1]{\raisebox{-0.05em}{\resizebox{!}{1em}{#1}}}
+\newcommand{\ieeeicon}[1]{\raisebox{-0.3em}{\resizebox{!}{1.3em}{#1}}}
+
+% Font options
+\newcommand{\headerfonti}{\fontfamily{phv}\selectfont} % Helvetica-like (similar to Arial/Calibri)
+\newcommand{\headerfontii}{\fontfamily{ptm}\selectfont} % Times-like (similar to Times New Roman)
+\newcommand{\headerfontiii}{\fontfamily{ppl}\selectfont} % Palatino (elegant serif)
+\newcommand{\headerfontiv}{\fontfamily{pbk}\selectfont} % Bookman (readable serif)
+\newcommand{\headerfontv}{\fontfamily{pag}\selectfont} % Avant Garde-like (similar to Trebuchet MS)
+\newcommand{\headerfontvi}{\fontfamily{cmss}\selectfont} % Computer Modern Sans Serif
+\newcommand{\headerfontvii}{\fontfamily{qhv}\selectfont} % Quasi-Helvetica (another Arial/Calibri alternative)
+\newcommand{\headerfontviii}{\fontfamily{qpl}\selectfont} % Quasi-Palatino (another elegant serif option)
+\newcommand{\headerfontix}{\fontfamily{qtm}\selectfont} % Quasi-Times (another Times New Roman alternative)
+\newcommand{\headerfontx}{\fontfamily{bch}\selectfont} % Charter (clean serif font)
+
+\begin{document}
+\headerfontiii
+
+% Header
+\begin{center}
+    {\huge\textbf{Hamed F. Ganji}}
+\end{center}
+%\vspace{-6mm}
+
+\begin{center}
+%    \small{
+%    \textbf{Mobile phone:} +31-618797438 | \textbf{Email:} \href{mailto:hamedfganji@mp.nl}{hamedfganji@mp.nl} | 
+%    \textbf{Citizenship:} Iranian-Dutch \\ %\progressbar{0.8} \\ %\ 
+%\textbf{Language proficiency:} Dutch (A2), English (C1), Persian (C2) | \textbf{Address:} Roermond, Limburg
+    %\href{https://www.yourwebsite.com/}{yourwebsite.com}
+%    }
+\small{
+    \textbf{Mobile phone:} +31-618797438 | \textbf{Email:} \href{mailto:hamedfganji@mp.nl}{hamedfganji@mp.nl} | 
+    \textbf{Address:} Roermond, Limburg}
+\end{center}
+%\vspace{-6mm}
+
+%\begin{center}
+%    \small{Roermond, Limburg - 6043 HB, The Netherlands}
+%\end{center}
+
+\vspace{-6mm}
+%\begin{center}
+%    \small{
+%    \socialicon{\faLinkedin} \href{https://www.linkedin.com/in/hamed-faghanpourganji-hamed-f-ganji-684522166/}{Linkedin} | 
+    %\socialicon{\faGithub} \href{https://github.com/your-username}{your-username} | 
+%    \socialicon{\faGraduationCap} \href{https://scholar.google.com/citations?user=QPmfwzwAAAAJ&hl=en}{Google Scholar} |
+    %\socialicon{\faTwitter} \href{https://twitter.com/your-handle}{your-handle}
+%    }
+%\end{center}
+
+%\vspace{-6mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{\textbf{About me} \hfill \small{
+    \socialicon{\faLinkedin} \href{https://www.linkedin.com/in/hamed-f-ganji-684522166/}{Linkedin}}}
+\vspace{1mm}
+\small{
+% Maastricht
+%Computational researcher with expertise in complex and dynamical systems, physics-based modelling, inverse problems, system identification, uncertainty quantification, and data-driven methods. My work spans acoustics, vibration, infrastructure, and environmental applications, with a focus on developing interpretable computational tools for prediction, monitoring, and engineering decision-making. I am particularly interested in extending these methods to urban and regional systems, where infrastructure, mobility, environment, and human activity interact across multiple scales.
+Researcher with a background in acoustics since 2009. My expertise spans physics-based and data-driven modelling, digital twins, and the identification of complex systems. I am particularly interested in connecting the physics of sound with auditory perception through interpretable, physics-informed data-driven models, with applications in biomedical research and broader societal challenges.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Computational researcher in acoustics, vibration, and dynamical systems, with expertise in physics-based numerical modelling, wave propagation, inverse problems, system identification, signal processing, and experimental validation. My research spans thermoacoustic instability, aero-vibroacoustics, structural dynamics, railway noise, and ground-borne vibration, and has resulted in new modelling methodologies, validated digital twins, scientific software, and engineering tools for real-world applications. My research aims to develop interpretable and computationally efficient methods for the modelling, identification, prediction, and design of complex dynamical systems by combining first-principles models with experimental and data-driven approaches. I am particularly interested in multi-physics and multi-scale systems in which interactions, uncertainty, and heterogeneous measurements must be integrated to support prediction, monitoring, optimisation, and engineering decision-making.
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \section{\textbf{Research Interests}}
+% Computational Acoustics \& Vibration | Wave Propagation | Inverse Problems \& System Identification | Scientific Computing | Signal Processing | Physics-informed/Data-driven Modelling. Dynamical \& Complex Systems | Computational Modelling \& Scientific Computing | System Identification \& Inverse Problems | Digital Twins \& Data-Driven Modelling | Wave Propagation, Acoustics \& Vibration | Signal Processing
+%%%% for Maastricht
+\section{\textbf{Research Interests}}
+Acoustics, Auditory Perception, Data-Driven Modeling \& Physics-Based Modelling
+%Wave Propagation, Acoustics \& Vibration | Data-Driven \& Physics-Based Modelling |\\
+%Environmental noise | Infrastructure, Mobility \& Environmental Systems\\
+%Complex Systems Modelling | Urban \& Regional Systems |\\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{\textbf{Education}}
+\resumeItemListStart
+\item \textbf{PhD in Mechanical Engineering (cum laude)} @
+Eindhoven University of Technology, The Netherlands \hfill 
+\item \textbf{Professional Doctorate in Engineering} @
+University of Twente, The Netherlands
+\item \textbf{M.Sc. in Aerospace Engineering} @
+Tehran Polytechnic, Iran
+\item \textbf{B.Sc. in Mechanical Engineering} @
+Babol Noshirvani University of Technology, Iran
+\resumeItemListEnd
+%\vspace{-5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{\textbf{Skills}}
+\resumeItemListStart
+
+\item \textbf{Programming \& Scientific Computing:}
+Python, MATLAB, Maple; numerical methods, scientific computing, numerical linear algebra, and computational modelling
+
+\item \textbf{Computational Modelling \& Simulation:}
+Finite Element Method (FEM), Computational Fluid and Solid Dynamics (CFSD), low-order modelling, multi-physics modelling, Monte Carlo simulation, statistical modelling, and uncertainty quantification
+
+\item \textbf{Dynamical Systems \& System Identification:}
+Inverse problems, system identification, stability analysis, transfer-function modelling, signal processing, and physics-based/data-driven model development
+
+\item \textbf{Acoustics \& Experimental Methods:}
+Acoustic and vibration measurements, beamforming, microphone arrays, experimental system characterisation, and measurement-based model validation, Multi-Microphone method and impedance tube, modal analysis
+
+\item \textbf{Engineering \& Simulation Software:}
+COMSOL Multiphysics, ANSYS Mechanical, ANSYS Fluent, Simulink, SolidWorks, ParaView
+
+\item \textbf{Research Software Development:}
+Object-Oriented Programming (OOP), modular software design, Git, VS Code, virtual environments and dependency management (uv, Poetry), scientific-toolbox development, and technical documentation
+
+\item \textbf{Scientific Communication \& Leadership:}
+Technical leadership \& communication, interdisciplinary and international collaboration, research planning, teaching and training, scientific writing
+
+\item \textbf{Documentation \& Visualisation:}
+\LaTeX{}, Microsoft Office (Word, PowerPoint, Visio), Inkscape
+
+\resumeItemListEnd
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{\textbf{Teaching and Supervising Experience}}
+\resumeItemListStart
+\item \textbf{Teaching:}
+\begin{itemize}
+    \item Modern Control Theory (2011)
+    \item Strength of Materials (2010, 2011)
+    \item Composite Structures (2012)
+    \item Acoustics (2021, 2022)
+\end{itemize}
+\item \textbf{Student Supervision:} Four Bachelor's final-year projects in acoustics and related engineering topics (2021--2024).
+\resumeItemListEnd
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{\textbf{Awards}}
+\resumeItemListStart
+    \item Recipient of the \href{https://www.tudelft.nl/jmburgerscentrum/awards/hoogendoorn-kivi-award}
+    {\color{blue}2025 Hoogendoorn KIVI Award} for the Best PhD Thesis in Fluid Mechanics
+\resumeItemListEnd
+%\vspace{-5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{\textbf{Research \& Professional Experience}}
+%\vspace{-0.4mm}
+
+\resumeSubHeadingListStart
+
+%===========================================================================================
+\resumeSubheading
+    {Railway Noise and Vibration
+    {\color{blue}\textit{@ M+P, the Netherlands}}}{}{}{}
+
+\resumeItemListStart
+
+\item \textbf{\color{gray}ProRail \& Ministry of Infrastructure and Water Management:}
+\begin{itemize}
+    \item Contributed to the annual development and updating of a nationwide digital twin for railway-noise mapping and monitoring across the Dutch railway network
+\end{itemize}
+
+%-------------------------------------------------------------------------------------------
+\item \textbf{\color{gray}ProRail \& Infraspeed:}
+\begin{itemize}
+    \item Led semiannual rail-roughness measurement campaigns across the Dutch high-speed railway network
+    \item Developed digital twin models for acoustic simulation of wheel--rail interaction and rolling noise
+    \item Co-led the migration of the analysis framework from MATLAB to Python
+    \item Advised on acoustic optimisation strategies for rail and wheel design
+    \item Advised on strategies to improve passenger acoustic comfort and reduce noise exposure for residents near high-speed railway lines
+    \item Authored a knowledge document on rail-roughness monitoring, integrating asset-management, environmental, and acoustic perspectives to support ProRail's policy development
+\end{itemize}
+
+%-------------------------------------------------------------------------------------------
+\item \textbf{\color{gray}QuieterRail (Horizon Europe -- Europe's Rail Programme):}
+\begin{itemize}
+    \item Contributed to Work Package 3 and led Tasks 3.2 and 3.4
+    \item Co-designed and conducted a European industry survey and stakeholder interviews on on-board rail-roughness monitoring systems
+    \item Developed a harmonised technical guideline for on-board rail-roughness monitoring across European railway networks
+    \item Developed an open-source Python toolbox supporting implementation of the technical guideline
+\end{itemize}
+
+%-------------------------------------------------------------------------------------------
+\item \textbf{\color{gray}Slokker Group:}
+\begin{itemize}
+    \item Built site-specific numerical models integrating geotechnical soil profiles and railway infrastructure using the open-source \textit{STEM-Vibration} platform (ProRail/Deltares)
+    \item Estimated equivalent train-induced dynamic loads through inverse modelling of field vibration measurements from train pass-bys
+    \item Performed numerical simulations to predict ground-borne vibration at planned building foundations and assess compliance with vibration criteria
+\end{itemize}
+
+\resumeItemListEnd
+
+%===========================================================================================
+\resumeSubheading
+    {Bridge Noise and Vibration
+    {\color{blue}\textit{@ M+P, the Netherlands}}}{}{}{}
+
+\resumeItemListStart
+    \item Developed simplified computational models to evaluate mitigation strategies for low-frequency bridge resonances
+\resumeItemListEnd
+
+%===========================================================================================
+\resumeSubheading
+    {Combustion-Driven Noise and Vibration
+    {\color{blue}\textit{@ TU/e, the Netherlands \& Orkli, Spain}}}{}{}{}
+
+\resumeItemListStart
+    \item Developed a research framework for burner-development strategies aimed at mitigating thermoacoustic instability
+    \item Developed a novel frequency-dependent stability-analysis framework
+    \item Proposed a figure of merit for assessing the thermoacoustic performance of combustion systems
+    \item Implemented coupled flow--thermal simulations to characterise acoustic elements
+    \item Characterised the acoustic properties of porous materials
+    \item Developed a thermoacoustic analysis toolbox adopted for industrial burner development
+    \item Calibrated measurement systems and designed and executed experimental campaigns
+    \item Recipient of the 2025 KIVI Best PhD Thesis Award in Fluid Mechanics
+    \item Delivered training workshops on aero--thermo--acoustic stability for participants from diverse engineering backgrounds
+\resumeItemListEnd
+
+%===========================================================================================
+\resumeSubheading
+    {Acoustic Filter Development
+    {\color{blue}\textit{@ University of Twente \& Pluggerz, the Netherlands}}}{}{}{}
+
+\resumeItemListStart
+    \item Defined a short-term research and development plan for innovative acoustic-filter concepts
+    \item Designed, simulated, prototyped, tested, and optimised flat-spectrum acoustic filters for custom-made earplugs
+    \item Applied experimental flow and acoustic techniques, including PIV, LDA, and beamforming
+\resumeItemListEnd
+
+%===========================================================================================
+\resumeSubheading
+    {Aero-Vibroacoustics
+    {\color{blue}\textit{@ Tehran Polytechnic, Iran \& Duke University, USA}}}{}{}{}
+
+\resumeItemListStart
+    \item Investigated coupled acoustic--fluid--structure interactions in a flow-excited cavity
+    \item Studied flutter instability and buckling failure
+    \item Developed a stochastic model of turbulent boundary layers using NASA experimental data
+    \item Contributed to the development and implementation of the Enhanced Piston Theory aerodynamic model for low-supersonic flow
+\resumeItemListEnd
+
+%===========================================================================================
+\resumeSubheading
+    {Low-Order Modelling of a Car Brake System
+    {\color{blue}\textit{@ Iran Khodro (IKCO), Iran}}}{}{}{}
+
+\resumeItemListStart
+    \item Developed a low-order model of the brake system and conducted parametric studies
+    \item Performed linear and nonlinear analyses of brake-squeal phenomena
+\resumeItemListEnd
+
+%===========================================================================================
+\resumeSubheading
+    {Nonlinear Wave Propagation in Physical Phenomena
+    {\color{blue}\textit{@ Babol Noshirvani University of Technology, Iran}}}{}{}{}
+
+\resumeItemListStart
+    \item Extended semi-analytical solutions for shallow-water wave propagation
+\resumeItemListEnd
+
+%===========================================================================================
+\resumeSubHeadingListEnd
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{\textbf{Publications}
+\hfill
+\socialicon{\faGraduationCap}
+\href{https://scholar.google.com/citations?user=QPmfwzwAAAAJ&hl=en}
+{\textcolor{darkblue}{\scriptsize Google Scholar}}
+}
+
+\vspace{-1.0mm}
+{\scriptsize
+\textcolor{darkblue}{
+\textbf{J}: Peer-reviewed journal article
+\hspace{0.6cm}
+\textbf{C}: Peer-reviewed conference paper
+}}
+
+\vspace{1.0mm}
+
+%===========================================================================================
+\textbf{\small Peer-Reviewed Journal Articles}
+
+\begin{enumerate}[
+    leftmargin=*,
+    labelsep=0.5em,
+    align=left,
+    widest={[\textbf{J.10}]},
+    itemindent=0em
+]
+
+%-------------------------------------------------------------------------------------------
+\item[\textbf{[J.1]}]
+\textbf{Ganji, H.F.}, Kornilov, V., van Oijen, J.
+\href{https://www.sciencedirect.com/science/article/pii/S0003682X25005146}
+{``Reconstruction of the reflection coefficient downstream of a flame from dual SISO acoustic measurements of flame,''}
+\textit{Applied Acoustics}, 242, 111042, 2026.
+
+%-------------------------------------------------------------------------------------------
+\item[\textbf{[J.2]}]
+\textbf{Ganji, H.F.}, Kornilov, V., Lopez Arteaga, I., de Goey, P., van Oijen, J.
+\href{https://www.sciencedirect.com/science/article/pii/S0010218024005455}
+{``A framework for obtaining frequency-dependent stability maps to mitigate thermoacoustic instabilities,''}
+\textit{Combustion and Flame}, 272, 113836, 2025.
+
+%-------------------------------------------------------------------------------------------
+\item[\textbf{[J.3]}]
+\textbf{Ganji, H.F.}, Kornilov, V., van Oijen, J., Lopez Arteaga, I., de Goey, P.
+\href{https://www.sciencedirect.com/science/article/pii/S0010218024003407}
+{``Thermoacoustic stability analysis and robust design of burner-deck-anchored flames using flame transfer function composition,''}
+\textit{Combustion and Flame}, 269, 113631, 2024.
+
+%-------------------------------------------------------------------------------------------
+\item[\textbf{[J.4]}]
+\textbf{Ganji, H.F.}, Kornilov, V., van Oijen, J., Lopez Arteaga, I., de Goey, P.
+\href{https://journals.sagepub.com/doi/10.1177/17568277241288372}
+{``Assessing thermoacoustic quality in combustion systems using the stability quality factor $\mathcal{S}$,''}
+\textit{International Journal of Spray and Combustion Dynamics}, 16(4), 2024.
+
+%-------------------------------------------------------------------------------------------
+\item[\textbf{[J.5]}]
+\textbf{Ganji, H.F.}, Kornilov, V., van Oijen, J., Lopez Arteaga, I., de Goey, P.
+\href{https://journals.sagepub.com/doi/10.1177/17568277241265433}
+{``Discussing the limitations of unconditional stability indicators in evaluating thermoacoustic quality of burners with flames,''}
+\textit{International Journal of Spray and Combustion Dynamics}, 16(4), 231--246, 2024.
+
+%-------------------------------------------------------------------------------------------
+\item[\textbf{[J.6]}]
+\textbf{Ganji, H.F.}, Dowell, E.H.
+\href{https://arc.aiaa.org/doi/abs/10.2514/1.C034309}
+{``Sound transmission and radiation from a plate--cavity system in supersonic flow,''}
+\textit{Journal of Aircraft}, 54(5), 1877--1900, 2017.
+
+%-------------------------------------------------------------------------------------------
+\item[\textbf{[J.7]}]
+\textbf{Ganji, H.F.}, Ganji, D.D.
+\href{https://aip.scitation.org/doi/10.1063/1.4979609}
+{``Effects of equilibrium point displacement in limit cycle oscillation amplitude, critical frequency and prediction of critical input angular velocity in minimal brake system,''}
+\textit{AIP Advances}, 7(4), 2017.
+
+%-------------------------------------------------------------------------------------------
+\item[\textbf{[J.8]}]
+\textbf{Ganji, H.F.}, Dowell, E.H.
+\href{https://www.sciencedirect.com/science/article/pii/S0889974616000396}
+{``Panel flutter prediction in two dimensional flow with enhanced piston theory,''}
+\textit{Journal of Fluids and Structures}, 63, 97--102, 2016.
+
+%-------------------------------------------------------------------------------------------
+\item[\textbf{[J.9]}]
+\textbf{Ganji, H.F.}, Jouya, M., Mirhosseini-Amiri, S.A., Ganji, D.D.
+\href{https://www.sciencedirect.com/science/article/pii/S1110016816300680}
+{``Traveling wave solution by differential transformation method and reduced differential transformation method,''}
+\textit{Alexandria Engineering Journal}, 55(3), 2985--2994, 2016.
+
+%-------------------------------------------------------------------------------------------
+\item[\textbf{[J.10]}]
+\textbf{Ganji, H.F.}, Dowell, E.H.
+\href{http://nonlinearstudies.com/index.php/mesa/article/view/1287}
+{``Investigation of higher order effects in linear piston theory,''}
+\textit{Mathematics in Engineering, Science and Aerospace}, 7(1), 93--103, 2016.
+
+\end{enumerate}
+
+\vspace{1mm}
+
+%===========================================================================================
+\textbf{\small Selected Peer-Reviewed Conference Papers}
+
+\begin{enumerate}[
+    leftmargin=*,
+    labelsep=0.5em,
+    align=left,
+    widest={[\textbf{C.4}]},
+    itemindent=0em
+]
+
+%-------------------------------------------------------------------------------------------
+\item[\textbf{[C.1]}]
+\textbf{Ganji, H.F.}, Kornilov, V., van Oijen, J., Lopez Arteaga, I.
+\href{https://asmedigitalcollection.asme.org/GT/proceedings-abstract/GT2024/87943/V03AT04A015/1203898}
+{``Reconstruction of the reflection coefficient downstream of a flame from dual SISO flame response measurements,''}
+\textit{Proceedings of ASME Turbo Expo 2024: Turbomachinery Technical Conference and Exposition},
+London, United Kingdom, 2024.
+
+%-------------------------------------------------------------------------------------------
+\item[\textbf{[C.2]}]
+\textbf{Ganji, H.F.}, Kornilov, V., Lopez Arteaga, I., de Goey, P.
+\href{https://www.ingentaconnect.com/content/ince/incecp/2024/00000270/00000002/art00012}
+{``Numerical investigation on the strategy of separating burner--flame thermoacoustics,''}
+\textit{Proceedings of the 53rd International Congress and Exposition on Noise Control Engineering (INTER-NOISE 2024)},
+Nantes, France, 2024.
+
+%-------------------------------------------------------------------------------------------
+\item[\textbf{[C.3]}]
+\textbf{Ganji, H.F.}, Kornilov, V., van Oijen, J., Lopez Arteaga, I.
+\href{https://www.ioa.org.uk/catalogue/paper/assessment-acoustic-scattering-matrix-heat-exchanger-using-sscfd-lnse-simulation}
+{``Assessment of the acoustic scattering matrix of a heat exchanger using ssCFD--LNSE simulation,''}
+\textit{Proceedings of INTER-NOISE 2022}, 2022.
+
+%-------------------------------------------------------------------------------------------
+\item[\textbf{[C.4]}]
+Aravinth, D., Shinde, P., Misra, A., Sucheendran, M.M., \textbf{Ganji, H.F.}
+\href{https://arc.aiaa.org/doi/abs/10.2514/6.2018-1443}
+{``Dynamic aeroelasticity of a trapezoidal wing using enhanced piston theory,''}
+\textit{2018 AIAA/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference},
+Kissimmee, FL, USA, 2018.
+
+\end{enumerate}
+
+
+%\vspace{-5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%   REFERENCE 1
+%\section{\textbf{References}}
+%\small{
+%References available upon request.
+%\begin{enumerate}[leftmargin=*,labelsep=2mm]
+%\item \textbf{Dr. Viktor Kornilov} \textit{(PhD Supervisor @ TU Eindhoven)} \hfill \textbf{Email:} v.kornilov@tue.nl\\
+%%%   REFERENCE 2
+%\item \textbf{Prof. Jeroen van Oijen} \textit{(PhD Supervisor @ TU Eindhoven)}  \hfill \textbf{Email:} j.a.v.oijen@tue.nl\\
+%%%   REFERENCE 3
+%\item \textbf{Prof. Philip de Goey} \textit{(PhD Supervisor @ TU Eindhoven)}  \hfill  \textbf{Email:} l.p.h.d.goey@tue.nl\\
+%%%   REFERENCE 4
+%\item \textbf{Prof. Ines Lopez Arteaga} \textit{(PhD Supervisor @ TU Eindhoven)}  \hfill  \textbf{Email:} i.lopez@tue.nl\\
+%%%   REFERENCE 5
+%\item \textbf{Dr. Ysbrand Wijnant} \textit{(PDEng Supervisor @ University of Twente)}  \hfill  \textbf{Email:} y.h.wijnant@utwente.nl\\
+%%%   REFERENCE 6
+%\item \textbf{Prof. Earl H. Dowell} \textit{(MSc Supervisor @ Duke University)}  \hfill  \textbf{Email:} earl.dowell@duke.edu\\
+%%%   REFERENCE 9
+%\item \textbf{Dr. Ard Kuijpers} \textit{(Director \& Senior consulting engineer @ M+P)}  \hfill  \textbf{Email:} ardkuijpers@mp.nl\\
+%%%   REFERENCE 7
+%\item \textbf{Mr. Ignacio Sánchez Díez} \textit{(Senior R\&D manager @ Orkli)}  \hfill  \textbf{Email:} isanchez@orkli.es\\
+%%%   REFERENCE 8
+%\item \textbf{Mr. Rien Houwers} \textit{(Senior R\&D engineer @ Comfoor\&Pluggerz)}  \hfill  \textbf{Email:} rien.houwers@comfoor.com\\
+
+%\end{enumerate}
+%}
+
+\end{document}

@@ -1,0 +1,26 @@
+
+---
+title: "Hamed F. Ganji"
+lang: nl
+title-block-style: none
+page-layout: full
+---
+
+# Welkom op mijn website
+
+Ik ben onderzoeker en ingenieur met ervaring in
+akoestiek, trillingen, numerieke modellering en
+wetenschappelijke softwareontwikkeling.
+
+Mijn achtergrond omvat een PhD aan de TU Eindhoven
+en een PDEng aan de Universiteit Twente.
+
+## Mijn onderzoeksgebieden
+
+- Akoestiek en trillingen
+- Numerieke modellering
+- Signaalverwerking
+- Systeemtechniek
+- Wetenschappelijke software
+
+[Mijn onderzoek](research.qmd)

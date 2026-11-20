@@ -1,0 +1,14 @@
+.quarto/
+_site/
+_freeze/
+*.html
+cv.pdf
+*.typ
+.DS_Store
+# NEVER commit confidential material or plaintext private notes.
+private/
+.env
+*.key
+
+/.quarto/
+**/*.quarto_ipynb

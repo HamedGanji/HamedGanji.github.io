@@ -1,0 +1,98 @@
+---
+title: "Hamed F. Ganji"
+title-block-banner: false
+page-layout: full
+toc: false
+---
+
+::: {.home-wrap}
+
+::: {.hero}
+
+::: {.person-panel}
+
+![](assets/portrait-placeholder.svg){.portrait fig-alt="Illustrative portrait placeholder; replace with your photograph"}
+
+### Hamed F. Ganji
+
+<span class="credentials">PhD · PDEng</span>
+
+<span class="person-subtitle">Research Scientist · R&D Engineer · Scientific Software Developer</span>
+
+[GitHub](https://github.com/YOUR_GITHUB_USERNAME){.button .button-outline} [Curriculum Vitae](cv.qmd){.button .button-outline}
+
+:::
+
+::: {.hero-copy}
+
+<span class="eyebrow">RESEARCH · ENGINEERING · COMPUTATION</span>
+
+# Understanding complex physical systems through modelling and measurement
+
+I work across **acoustics, vibration, computational modelling and scientific software**, combining fundamental research with practical engineering applications.
+
+My academic background includes a **PhD from Eindhoven University of Technology** and a **PDEng from the University of Twente**. I currently work at **M+P**, where I contribute to acoustic engineering and software development.
+
+[Explore research](research.qmd){.button .button-primary} [Read articles](posts/index.qmd){.button .button-outline}
+
+:::
+
+:::
+
+::: {.home-section}
+
+## Focus areas
+
+::: {.feature-grid}
+
+::: {.feature-tile}
+### Acoustics & vibration
+
+Modelling, measurements, noise control and dynamic systems.
+
+[Research topics →](research.qmd)
+:::
+
+::: {.feature-tile}
+### Scientific computing
+
+Python, signal processing, inverse problems and reproducible analysis.
+
+[Technical articles →](posts/index.qmd)
+:::
+
+::: {.feature-tile}
+### Engineering innovation
+
+Systems engineering, simulation, optimization and experimental validation.
+
+[Projects & software →](software.qmd)
+:::
+
+:::
+
+:::
+
+::: {.home-section}
+
+## Recent writing
+
+**Example article:** [From sound pressure to decibels: a short computational introduction](posts/2026-11-20-sound-pressure/index.qmd)
+
+This is demonstration content. Replace it with your first original article before publicly sharing the site.
+
+[Browse all articles →](posts/index.qmd)
+
+:::
+
+::: {.home-section}
+
+## Let's collaborate
+
+I am interested in interdisciplinary research, scientific software, and innovative engineering projects.
+
+[Contact me →](contact.qmd)
+
+:::
+
+:::

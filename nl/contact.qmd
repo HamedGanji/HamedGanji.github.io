@@ -1,0 +1,13 @@
+---
+title: "Contact"
+lang: nl
+toc: false
+---
+
+Voor samenwerking op het gebied van onderzoek, technische discussies of professionele vragen kunt u contact met mij opnemen via een van de onderstaande mogelijkheden.
+
+- **GitHub:** [Bekijk mijn profiel](https://github.com/HamedGanji)
+- **LinkedIn:** [Bekijk mijn LinkedIn-profiel](https://www.linkedin.com/in/hamed-f-ganji-684522166/)
+- **E-mail:** Voeg hier uw openbare e-mailadres toe.
+
+Ik ben gevestigd in Nederland.

@@ -1,0 +1,28 @@
+---
+title: "Research"
+description: "Research topics in acoustics, vibration and computational engineering"
+---
+
+Research interests span physical modelling, computation, experimentation, and engineering design.
+
+## Acoustics and vibroacoustics
+
+- Acoustic wave propagation, noise generation and control
+- Vibroacoustic modelling and measurements
+- Acoustics of rail and infrastructure systems
+
+## Dynamics, stability, and inverse problems
+
+- Modelling of dynamical systems and stability
+- Signal processing and inverse methods
+- Robust parameter inference from experimental observations
+
+## Systems engineering and innovation
+
+- Multidisciplinary design and optimization
+- Simulation, prototyping, experimental validation
+- Reproducible computational workflows
+
+::: {.callout-note}
+The descriptions above are a starting point. Replace them with selected, publicly shareable projects and precise links to publications.
+:::

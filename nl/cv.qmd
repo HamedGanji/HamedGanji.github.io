@@ -1,0 +1,53 @@
+---
+title: "Curriculum Vitae"
+author: "Hamed F. Ganji"
+subtitle: "Research Scientist · R&D Engineer · Scientific Software Developer"
+format:
+  html:
+    toc: false
+  typst:
+    papersize: a4
+    margin:
+      x: 1.7cm
+      y: 1.6cm
+    fontsize: 10pt
+---
+
+[Download CV as PDF](cv.pdf){.button .button-primary}
+
+## Professional profile
+
+Research and engineering professional with a background in acoustics, vibration, numerical modelling, systems engineering and scientific software. Experience spanning academic research and multidisciplinary engineering applications.
+
+## Experience
+
+### M+P — Acoustic software development and consultancy
+
+*2025–present · The Netherlands*
+
+- Acoustic engineering, numerical analysis and scientific software development.
+- Applied research and engineering consultancy.
+- Technical contributions to collaborative R&D projects.
+
+### Eindhoven University of Technology — Research
+
+- PhD research in thermoacoustic instability and burner development strategies.
+
+## Education
+
+- **PhD**, Eindhoven University of Technology (2025)
+- **PDEng**, University of Twente
+- **MSc**, Aerospace Engineering, Amirkabir University of Technology
+- **BSc**, Mechanical Engineering, Babol Noshirvani University of Technology
+
+## Selected expertise
+
+Acoustics · Vibration · Python · Signal processing · Numerical modelling · Systems engineering · R&D
+
+## Publications
+
+See the [Publications](publications.qmd) page for the full list.
+
+::: {.callout-note}
+This is a compact **starter CV**, not your final application-ready version. Review dates, titles, and descriptions, and add contact details before publishing.
+:::

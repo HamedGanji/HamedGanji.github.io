@@ -1,0 +1,43 @@
+/* A clean, original academic portfolio inspired by content-first Quarto sites. */
+:root {
+  --brand: #3b3f9c;
+  --brand-dark: #292e7a;
+  --ink: #1d2940;
+  --muted: #5f6e81;
+  --soft: #f4f6fb;
+  --line: #e5e9f2;
+}
+body { color: var(--ink); font-family: Inter, "Segoe UI", system-ui, sans-serif; }
+.navbar, .navbar.navbar-dark { background: var(--brand-dark) !important; }
+.navbar .nav-link, .navbar .navbar-brand { color: #fff !important; }
+.navbar .nav-link:hover { color: #dce3ff !important; }
+a { color: var(--brand); }
+a:hover { color: var(--brand-dark); }
+h1,h2,h3 { letter-spacing: -.025em; }
+h1 { font-weight: 760; }
+h2 { font-weight: 700; }
+.home-wrap { max-width: 1130px; margin: 0 auto; padding: 2.6rem 1.1rem 4rem; }
+.hero { display: grid; grid-template-columns: 300px minmax(0,1fr); gap: 3.3rem; align-items: center; margin: 0 0 3rem; }
+.person-panel { text-align: center; border-right: 1px solid var(--line); padding: 0 2.6rem 0 .6rem; }
+.person-panel .portrait { display:block; width: 196px; height: 196px; object-fit: cover; border-radius: 50%; margin: 0 auto 1.1rem; box-shadow: 0 12px 24px rgba(41,46,122,.09); }
+.person-panel h3 { font-size: 1.55rem; margin: .25rem 0 .15rem; }
+.credentials { font-size: .88rem; font-weight: 700; color: var(--brand); }
+.person-subtitle { display:block; font-size: .88rem; color: var(--muted); line-height: 1.6; margin: .8rem 0 1.1rem; }
+.hero-copy { padding: .5rem 0; }
+.hero-copy .eyebrow { color: var(--brand); font-size: .75rem; font-weight: 750; letter-spacing: .19em; }
+.hero-copy h1 { max-width: 690px; line-height: 1.13; font-size: clamp(2rem, 3.7vw, 3.25rem); margin: 1.0rem 0 1.25rem; }
+.hero-copy p { max-width: 670px; font-size: 1.04rem; color: #45536a; line-height: 1.8; }
+.button { display:inline-block; border-radius: .4rem; padding: .65rem 1rem; margin: .3rem .25rem .3rem 0; font-weight: 650; font-size: .87rem; text-decoration: none; transition: transform .12s; }
+.button:hover { text-decoration:none; transform:translateY(-1px); }
+.button-primary { color:white !important; background:var(--brand); border:1px solid var(--brand); }
+.button-outline { color:var(--brand) !important; border:1px solid #cbd2e8; background:white; }
+.button-outline:hover { background:var(--soft); }
+.home-section { border-top:1px solid var(--line); margin-top:2.2rem; padding-top:1.3rem; }
+.home-section h2 { margin-bottom: 1rem; }
+.feature-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
+.feature-tile { background:var(--soft); border:1px solid var(--line); border-radius:.65rem; padding:1.2rem 1.25rem; }
+.feature-tile h3 { font-size:1.12rem; margin:.1rem 0 .65rem; }
+.feature-tile p { font-size:.93rem; line-height:1.65; }
+.quarto-title-block .title { font-weight:750; }
+.nav-footer { border-top:1px solid var(--line); }
+@media (max-width: 800px) { .hero { grid-template-columns:1fr; gap:1.4rem; } .person-panel { border-right:0; border-bottom:1px solid var(--line); padding:0 0 1.6rem; } .hero-copy { text-align:left; } .feature-grid { grid-template-columns:1fr; } .home-wrap { padding-top:1.2rem; } }

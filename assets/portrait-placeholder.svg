@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs><radialGradient id="bg"><stop offset="0" stop-color="#e7edff"/><stop offset="1" stop-color="#bac9e5"/></radialGradient></defs>
+  <circle cx="300" cy="300" r="300" fill="url(#bg)"/>
+  <path d="M0 458 C100 390 170 385 230 408 S375 407 600 440 V600 H0Z" fill="#9eadd2" opacity=".55"/>
+  <circle cx="300" cy="234" r="106" fill="#7185b8" opacity=".78"/>
+  <path d="M95 600 C100 435 194 371 300 373 C406 371 500 435 505 600Z" fill="#586fa3" opacity=".90"/>
+  <text x="300" y="550" font-family="Arial,sans-serif" font-size="30" letter-spacing="6" fill="white" text-anchor="middle">ADD YOUR PHOTO</text>
+</svg>
