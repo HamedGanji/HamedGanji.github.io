@@ -11,7 +11,7 @@ toc: false
 
 ::: {.person-panel}
 
-![](assets/portrait-placeholder.svg){.portrait fig-alt="Illustrative portrait placeholder; replace with your photograph"}
+![](assets/hamed-ganji.jpg){.portrait fig-alt="Portrait of Hamed F. Ganji"}
 
 ### Hamed F. Ganji
 
