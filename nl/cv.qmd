@@ -13,7 +13,7 @@ format:
     fontsize: 10pt
 ---
 
-[Download CV as PDF](cv.pdf){.button .button-primary}
+[Download CV as PDF](/cv.pdf){.btn .btn-primary}
 
 ## Professional profile
 
