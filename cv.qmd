@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-subtitle: "Hamed F. Ganji, PhD, PDEngggggggggggggg"
+subtitle: "Hamed F. Ganji, PhD, PDEng"
 author: "Hamed F. Ganji"
 description: "Academic and professional CV covering acoustics, vibration, computational engineering, scientific software and applied research."
 lang: en
@@ -8,19 +8,31 @@ toc: false
 format:
   html:
     toc: false
+  typst:
+    papersize: a4
+    margin:
+      x: 1.8cm
+      y: 1.65cm
+    mainfont: Libertinus Serif
+    fontsize: 11pt
+    linkcolor: '#17466a'
 ---
 
 ::: {.content-visible when-format="html"}
-[Download CV as PDF](cv.pdf){.btn .btn-primary}
+[Download CV as PDF](/cv.pdf){.btn .btn-primary}
 :::
 
 **Researcher · Acoustic & Vibration Engineer · Scientific Software Developer**  
 Roermond, the Netherlands  
 [GitHub](https://github.com/HamedGanji) · [LinkedIn](https://www.linkedin.com/in/hamed-f-ganji-684522166/) · [Google Scholar](https://scholar.google.com/citations?user=QPmfwzwAAAAJ&hl=en)
 
+::: {.content-visible when-format="typst"}
+[+31-618797438](tel:+31618797438) · [hamedfganji@mp.nl](mailto:hamedfganji@mp.nl) · Roermond, Limburg
+:::
+
 ## Professional profile
 
-IIIIIIIII am a researcher and engineer with a background in acoustics dating back to 2009. My work combines physics-based and data-driven modelling, system identification, numerical methods, experimental validation, and scientific software development. I have applied these methods to acoustic and vibration systems across academic and industrial settings, including thermoacoustics, aero-vibroacoustics, structural dynamics, railway noise, and ground-borne vibration.
+I am a researcher and engineer with a background in acoustics dating back to 2009. My work combines physics-based and data-driven modelling, system identification, numerical methods, experimental validation, and scientific software development. I have applied these methods to acoustic and vibration systems across academic and industrial settings, including thermoacoustics, aero-vibroacoustics, structural dynamics, railway noise, and ground-borne vibration.
 
 I am interested in connecting the physics of sound with auditory perception through interpretable, physics-informed data-driven models, including potential applications in biomedical research and societal challenges. I hold a **PhD in Mechanical Engineering (cum laude)** and a **Professional Doctorate in Engineering (PDEng)**.
 
@@ -36,10 +48,14 @@ I am interested in connecting the physics of sound with auditory perception thro
 
 | Qualification | Institution |
 |---|---|
-| **PhD in Mechanical Engineering (cum laude)** | Eindhoven University of Technology (TU/e), the Netherlands |
+| **PhD in Mechanical Engineering (cum laude, 2025)** | Eindhoven University of Technology (TU/e), the Netherlands |
 | **Professional Doctorate in Engineering (PDEng)** | University of Twente, the Netherlands |
 | **MSc in Aerospace Engineering** | Tehran Polytechnic (Amirkabir University of Technology), Iran |
 | **BSc in Mechanical Engineering** | Babol Noshirvani University of Technology, Iran |
+
+```{=typst}
+#pagebreak(weak: true)
+```
 
 ## Research and professional experience
 
@@ -49,10 +65,10 @@ I am interested in connecting the physics of sound with auditory perception thro
 *April 2025–present*
 
 - Develop numerical models, measurement-analysis workflows, and scientific software for noise and vibration engineering.
-- **ProRail and Infraspeed:** Lead rail-roughness measurement campaigns, develop wheel–rail interaction and rolling-noise models, and co-lead migration of an analysis framework from MATLAB to Python.
-- **QuieterRail (Horizon Europe / Europe's Rail):** Contribute to Work Package 3, lead Tasks 3.2 and 3.4, coordinate stakeholder research, help develop technical guidance for onboard rail-roughness monitoring, and develop a Python analysis toolbox.
-- **ProRail / Dutch infrastructure stakeholders:** Contribute to railway noise-mapping and monitoring work and develop knowledge guidance on rail-roughness management.
-- **Ground-borne vibration:** Use field measurements, inverse modelling, and numerical simulation to estimate train-induced vibrations at planned buildings and evaluate mitigation measures.
+- **ProRail and Infraspeed:** Lead semiannual rail-roughness measurement campaigns across the Dutch high-speed rail network, develop wheel–rail interaction and rolling-noise digital twins, and co-lead migration of an analysis framework from MATLAB to Python. Advise on rail and wheel design, passenger acoustic comfort, and reducing noise exposure for nearby residents. Authored guidance that integrates asset management, environmental, and acoustic perspectives to support ProRail policy.
+- **QuieterRail (Horizon Europe / Europe's Rail):** Contribute to Work Package 3, lead Tasks 3.2 and 3.4, coordinate stakeholder research, including a European industry survey and interviews, develop harmonised technical guidance for onboard rail-roughness monitoring across European networks, and develop an open-source Python toolbox to support implementation.
+- **ProRail and the Ministry of Infrastructure and Water Management:** Contribute to annual updates of a nationwide railway noise-mapping and monitoring digital twin and develop knowledge guidance on rail-roughness management.
+- **Ground-borne vibration (Slokker Group):** Build site-specific models of soil profiles and rail infrastructure using STEM-Vibration (ProRail/Deltares). Estimate dynamic train loads by inverse modelling of pass-by measurements and simulate vibration at planned building foundations to assess compliance and mitigation measures.
 - **Bridge dynamics:** Develop simplified computational models for assessing mitigation of low-frequency bridge resonances.
 
 ### Doctoral researcher — thermoacoustics and dynamic systems
@@ -61,7 +77,7 @@ I am interested in connecting the physics of sound with auditory perception thro
 
 - Developed strategies for burner design and mitigation of thermoacoustic instability.
 - Developed frequency-dependent stability-analysis methods and performance measures for combustion systems.
-- Combined analytical modelling, coupled fluid–thermal simulation, measurement-system calibration, and experimental investigations.
+- Combined analytical modelling, coupled fluid–thermal simulation, measurement-system calibration, and experimental investigations, including characterisation of acoustic elements and porous materials.
 - Developed a thermoacoustic analysis toolbox used in industrial burner development.
 - Delivered technical training on aero-thermo-acoustic stability and supervised engineering students.
 
@@ -70,26 +86,31 @@ I am interested in connecting the physics of sound with auditory perception thro
 **University of Twente and Pluggerz, the Netherlands**
 
 - Designed and optimised flat-spectrum acoustic filters for custom-made earplugs.
-- Applied systems engineering from requirements definition and concept selection to simulation, prototyping, testing, and validation.
+- Defined a short-term R&D plan for acoustic-filter concepts and applied systems engineering from requirements definition and concept selection to simulation, prototyping, testing, and validation.
 - Applied experimental flow and acoustic techniques, including PIV, LDA, and beamforming.
 
 ### Earlier research and engineering projects
 
-- **Aero-vibroacoustics — Tehran Polytechnic and Duke University:** Studied coupled fluid–structure–acoustic interactions, flutter and buckling, turbulent-boundary-layer stochastic models, and enhanced piston theory.
+- **Aero-vibroacoustics — Tehran Polytechnic, Iran, and Duke University, USA:** Studied coupled fluid–structure–acoustic interactions in a flow-excited cavity, flutter and buckling, and stochastic turbulent-boundary-layer modelling using NASA data. Helped develop and implement enhanced piston theory for low-supersonic flow.
 - **Automotive brake squeal — Iran Khodro:** Developed a reduced-order brake model and performed parametric, linear, and nonlinear analyses.
 - **Nonlinear wave propagation — Babol Noshirvani University of Technology:** Extended semi-analytical methods for shallow-water waves.
+
+```{=typst}
+#pagebreak(weak: true)
+```
 
 ## Technical expertise
 
 | Area | Methods and tools |
 |---|---|
 | **Programming and scientific computing** | Python, MATLAB, Maple, numerical linear algebra, computational modelling |
-| **Simulation and modelling** | FEM, computational fluid and solid dynamics, low-order and multiphysics models, Monte Carlo methods, uncertainty quantification |
+| **Simulation and modelling** | FEM, computational fluid and solid dynamics, low-order and multiphysics models, Monte Carlo methods, statistical modelling, uncertainty quantification |
 | **Dynamical systems** | Stability analysis, system identification, inverse problems, transfer functions, signal processing |
-| **Experimental methods** | Acoustic and vibration measurements, beamforming, microphone arrays, impedance tubes, multimicrophone methods, modal analysis |
+| **Experimental methods** | Acoustic and vibration measurements, beamforming, microphone arrays, impedance tubes, multimicrophone methods, modal analysis, experimental system characterisation, measurement-based validation |
 | **Engineering software** | COMSOL Multiphysics, ANSYS Mechanical and Fluent, Simulink, SolidWorks, ParaView |
 | **Software development** | Object-oriented programming, modular design, Git, VS Code, uv, Poetry, scientific-toolbox development, technical documentation |
-| **Research and communication** | Teaching, student supervision, technical leadership, interdisciplinary collaboration, scientific writing, LaTeX |
+| **Research and communication** | Teaching, student supervision, technical leadership, interdisciplinary and international collaboration, research planning, scientific writing |
+| **Documentation and visualisation** | LaTeX, Microsoft Word, PowerPoint, Visio, Inkscape |
 
 ## Teaching and supervision
 
@@ -103,6 +124,10 @@ I am interested in connecting the physics of sound with auditory perception thro
 
 - **2025 Hoogendoorn KIVI Award**, for the best PhD thesis in fluid mechanics ([award information](https://www.tudelft.nl/jmburgerscentrum/awards/hoogendoorn-kivi-award)).
 - **PhD awarded cum laude**, Eindhoven University of Technology.
+
+```{=typst}
+#pagebreak(weak: true)
+```
 
 ## Peer-reviewed journal publications
 
@@ -119,13 +144,13 @@ I am interested in connecting the physics of sound with auditory perception thro
 
 ## Selected peer-reviewed conference papers
 
-1. **Ganji, H. F.**, Kornilov, V., van Oijen, J., Lopez Arteaga, I. (2024). [Reconstruction of the reflection coefficient downstream of a flame from dual SISO flame response measurements](https://asmedigitalcollection.asme.org/GT/proceedings-abstract/GT2024/87943/V03AT04A015/1203898). *ASME Turbo Expo 2024*, London, UK.
-2. **Ganji, H. F.**, Kornilov, V., Lopez Arteaga, I., de Goey, P. (2024). [Numerical investigation on the strategy of separating burner–flame thermoacoustics](https://www.ingentaconnect.com/content/ince/incecp/2024/00000270/00000002/art00012). *INTER-NOISE 2024*, Nantes, France.
+1. **Ganji, H. F.**, Kornilov, V., van Oijen, J., Lopez Arteaga, I. (2024). [Reconstruction of the reflection coefficient downstream of a flame from dual SISO flame response measurements](https://asmedigitalcollection.asme.org/GT/proceedings-abstract/GT2024/87943/V03AT04A015/1203898). *Proceedings of ASME Turbo Expo 2024: Turbomachinery Technical Conference and Exposition*, London, UK.
+2. **Ganji, H. F.**, Kornilov, V., Lopez Arteaga, I., de Goey, P. (2024). [Numerical investigation on the strategy of separating burner–flame thermoacoustics](https://www.ingentaconnect.com/content/ince/incecp/2024/00000270/00000002/art00012). *Proceedings of the 53rd International Congress and Exposition on Noise Control Engineering (INTER-NOISE 2024)*, Nantes, France.
 3. **Ganji, H. F.**, Kornilov, V., van Oijen, J., Lopez Arteaga, I. (2022). [Assessment of the acoustic scattering matrix of a heat exchanger using ssCFD–LNSE simulation](https://www.ioa.org.uk/catalogue/paper/assessment-acoustic-scattering-matrix-heat-exchanger-using-sscfd-lnse-simulation). *INTER-NOISE 2022*.
-4. Aravinth, D., Shinde, P., Misra, A., Sucheendran, M. M., **Ganji, H. F.** (2018). [Dynamic aeroelasticity of a trapezoidal wing using enhanced piston theory](https://arc.aiaa.org/doi/abs/10.2514/6.2018-1443). *2018 AIAA/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference*, Kissimmee, USA.
+4. Aravinth, D., Shinde, P., Misra, A., Sucheendran, M. M., **Ganji, H. F.** (2018). [Dynamic aeroelasticity of a trapezoidal wing using enhanced piston theory](https://arc.aiaa.org/doi/abs/10.2514/6.2018-1443). *2018 AIAA/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference*, Kissimmee, FL, USA.
 
 For the latest publication record, see my [Google Scholar profile](https://scholar.google.com/citations?user=QPmfwzwAAAAJ&hl=en).
 
 ## Contact
 
-For research collaboration or technical discussion, please use the links above or visit the [Contact page](contact.qmd).
+For research collaboration or technical discussion, please use the links above or visit the [Contact page](https://hamedganji.github.io/contact.html).

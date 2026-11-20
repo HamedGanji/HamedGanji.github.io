@@ -24,13 +24,10 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
       - name: Render HTML website
         run: quarto render . --to html
-      - name: Generate CV PDF (academic LaTeX layout)
-        uses: xu-cheng/latex-action@v4
-        with:
-          root_file: cv-print.tex
-          latexmk_use_xelatex: true
-      - name: Include printable CV in website
-        run: cp cv-print.pdf _site/cv.pdf
+      - name: Generate CV PDF with Typst
+        run: |
+          quarto render cv.qmd --to typst
+          test -s _site/cv.pdf
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload GitHub Pages artifact
