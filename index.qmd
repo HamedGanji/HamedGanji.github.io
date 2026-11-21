@@ -1,8 +1,18 @@
 ---
-title: "Hamed F. Ganji"
+title: ""
 title-block-banner: false
 page-layout: full
 toc: false
+listing:
+  id: latest-posts-listing
+  contents: "posts/*/index.qmd"
+  type: table
+  fields: [date, title]
+  sort: "date desc"
+  date-format: "D MMM YYYY"
+  max-items: 3
+  sort-ui: false
+  filter-ui: false
 ---
 
 ::: {.home-wrap}
@@ -17,24 +27,18 @@ toc: false
 
 <span class="credentials">PhD · PDEng</span>
 
-<span class="person-subtitle">Research Scientist · R&D Engineer · Scientific Software Developer</span>
+<span class="person-subtitle">Acoustics, Waves & Vibrations</span>
 
-[GitHub](https://github.com/YOUR_GITHUB_USERNAME){.button .button-outline} [Curriculum Vitae](cv.qmd){.button .button-outline}
+[GitHub](https://github.com/HamedGanji){.button .button-outline} [Email](mailto:h.faghanpourganji@tue.nl){.button .button-outline} [Google Scholar](https://scholar.google.com/citations?user=QPmfwzwAAAAJ&hl=en){.button .button-outline} [Linkedin](https://www.linkedin.com/in/hamed-f-ganji-684522166){.button .button-outline}
 
 :::
 
 ::: {.hero-copy}
 
-<span class="eyebrow">RESEARCH · ENGINEERING · COMPUTATION</span>
 
-# Understanding complex physical systems through modelling and measurement
+# Builder of solution
 
-I work across **acoustics, vibration, computational modelling and scientific software**, combining fundamental research with practical engineering applications.
-
-My academic background includes a **PhD from Eindhoven University of Technology** and a **PDEng from the University of Twente**. I currently work at **M+P**, where I contribute to acoustic engineering and software development.
-
-[Explore research](research.qmd){.button .button-primary} [Read articles](posts/index.qmd){.button .button-outline}
-
+I am a multidisciplinary engineer and researcher specialising in acoustics, waves and vibrations. I combine scientific depth with systems engineering, technical project management, and Agile practice to turn complex industrial and scientific challenges into robust, innovative solutions, and I enjoy connecting research, engineering design, and open-source software to create real-world impact.
 :::
 
 :::
@@ -75,23 +79,34 @@ Systems engineering, simulation, optimization and experimental validation.
 
 ::: {.home-section}
 
-## Recent writing
+## Spotlight
 
-**Example article:** [From sound pressure to decibels: a short computational introduction](posts/2026-11-20-sound-pressure/index.qmd)
+**QuieterRail (ongoing):** I contribute to Work Package 3 of the [QuieterRail project](https://cordis.europa.eu/project/id/101176865), a Horizon Europe project under the Europe's Rail programme, a collaboration of sixteen industrial and academic partners. My work focuses on developing technical guidelines and open-source software for onboard acoustic monitoring of rail roughness, supporting more effective rail grinding.
 
-This is demonstration content. Replace it with your first original article before publicly sharing the site.
+**Hoogendoorn Award (2025):** I am happy to share that my PhD thesis received the [2025 KIVI Hoogendoorn Fluid Mechanics Award](https://www.tudelft.nl/2026/jm-burgerscentrum/kivi-hoogendoorn-fluid-mechanics-award-2025), given for the best PhD thesis defended in the 2024–2025 academic year. I am grateful for this recognition and thank everyone who supported me along the way.
 
-[Browse all articles →](posts/index.qmd)
+**Farid Award (2022):** I was honoured to receive the Farid Award, established in memory of Dr. Farid Hosseinizadeh, an assistant professor at Babol Noshirvani University of Technology who passed away far too young. The award recognises promising early-career researchers. It is especially meaningful to me because it was granted by my hometown university.
 
 :::
 
 ::: {.home-section}
 
-## Let's collaborate
+## Latest posts
 
-I am interested in interdisciplinary research, scientific software, and innovative engineering projects.
+::: {#latest-posts-listing}
+:::
 
-[Contact me →](contact.qmd)
+[All posts](posts/index.qmd)
+
+:::
+
+::: {.home-section}
+
+## Get in touch
+
+I enjoy exchanging ideas on interdisciplinary research, scientific software, and innovative engineering. Feel free to reach out for discussions, questions, or potential opportunities.
+
+[Contact me →](mailto:h.faghanpourganji@tue.nl)
 
 :::
 

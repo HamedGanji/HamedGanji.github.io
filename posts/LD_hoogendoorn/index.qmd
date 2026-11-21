@@ -1,9 +1,11 @@
 ---
 title: "2025 KIVI Hoogendoorn Fluid Mechanics Award"
-date: 2026-09-13
+date: 2026-05-20
 lang: en
+aliases:
+  - /posts/LD_hoggendoorn/index.html
 ---
 
 I’m happy to share that my PhD thesis, *Burner Development Strategies in the Context of Thermoacoustic Instability*, received the 2025 KIVI Hoogendoorn Fluid Mechanics Award for the best PhD thesis defended in the 2024–2025 academic year. I’m grateful to everyone who supported me throughout my research.
 
-[Read my post on LinkedIn](https://lnkd.in/p/e5aN39X5) or see the [official award announcement](https://www.tudelft.nl/2026/jm-burgerscentrum/kivi-hoogendoorn-fluid-mechanics-award-2025).
+Read the [TU/e ME post](https://lnkd.in/p/e5aN39X5) or LinkedIn post of [ORkli](https://lnkd.in/p/eVryPwNQ) and see the [official award announcement](https://www.tudelft.nl/2026/jm-burgerscentrum/kivi-hoogendoorn-fluid-mechanics-award-2025).
