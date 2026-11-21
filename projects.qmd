@@ -6,7 +6,7 @@ format:
     theme: cosmo
 ---
 
-## QuieterRail {.projects-section}
+### QuieterRail {.projects-section}
 
 I contribute to Work Package 3 of [QuieterRail](https://cordis.europa.eu/project/id/101176865), a Horizon Europe project under Europe's Rail. My work focuses on onboard acoustic monitoring of rail roughness to support more effective rail grinding.
 
@@ -22,9 +22,7 @@ I develop harmonised technical guidance for onboard acoustic rail roughness moni
 
 I develop an open-source Python toolbox to support the implementation of onboard rail roughness monitoring.
 
-## Academic research projects {.projects-section}
-
-### Burner development and thermoacoustic instability
+### Burner development and thermoacoustic instability {.projects-section}
 
 I investigated how to improve thermoacoustic stability by combining flame groups with different acoustic responses on a single burner deck. The model represents the composite flame transfer function as a weighted sum of the individual responses. I used the Direct Conservative Stability criterion to identify stable gain and phase ranges, then assessed robustness using stability margins and Monte Carlo uncertainty analysis.
 
@@ -32,7 +30,7 @@ I investigated how to improve thermoacoustic stability by combining flame groups
 
 [Read the PhD thesis](https://research.tue.nl/p/en/research-outputs/burner-development-strategies-in-the-context-of-thermoacoustic-in)
 
-### Flat-spectrum filters for custom hearing protection
+### Flat-spectrum filters for custom hearing protection {.projects-section}
 
 I designed and tested a passive acoustic filter for 3D-printed custom earplugs, aiming for more even attenuation across frequencies. I modelled the filter, earplug, ear canal and eardrum in COMSOL Multiphysics, then used acoustic foam to counteract a resonance introduced by the flexible tube. I built multiple prototypes and validated their performance with a GN Otometrics measurement setup.
 
@@ -40,7 +38,7 @@ I designed and tested a passive acoustic filter for 3D-printed custom earplugs, 
 
 [Read the PDEng thesis](https://research.utwente.nl/en/publications/development-of-a-flat-spectrum-filter-for-3d-printed-custom-made-/)
 
-### Aero-vibroacoustics of a plate–cavity system
+### Aero-vibroacoustics of a plate–cavity system {.projects-section}
 
 I studied how a flexible panel over an acoustic cavity responds to supersonic flow before and after flutter. I coupled a nonlinear panel model based on von Kármán plate theory to a modal model of the cavity. Time-domain simulations examined how turbulent boundary-layer excitation and external noise affect panel stability, limit-cycle oscillations and sound transmission loss. A related study investigated higher-order piston theory for panel flutter at low supersonic speeds.
 
@@ -48,7 +46,7 @@ I studied how a flexible panel over an acoustic cavity responds to supersonic fl
 
 [Read the plate–cavity paper](https://arc.aiaa.org/doi/abs/10.2514/1.C034309)
 
-### Linear and nonlinear analysis of brake squeal
+### Linear and nonlinear analysis of brake squeal {.projects-section}
 
 I used a minimal disc-brake model to investigate how friction between the pad and the rotating disc affects stability. A linear analysis captured the effect of friction using a Stribeck model, and a nonlinear time-domain analysis estimated the amplitude and frequency of the disc's wobbling motion during braking.
 
@@ -56,7 +54,7 @@ I used a minimal disc-brake model to investigate how friction between the pad an
 
 [Read the brake dynamics paper](https://aip.scitation.org/doi/10.1063/1.4979609)
 
-### Analytical modelling of shallow-water waves
+### Analytical modelling of shallow-water waves {.projects-section}
 
 In this team project, I studied travelling waves in the Jaulent–Miodek and coupled Whitham–Broer–Kaup equations. I applied the Differential Transformation Method (DTM) and Reduced Differential Transformation Method (RDTM) to obtain analytical solutions.
 
