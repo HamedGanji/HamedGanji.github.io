@@ -1,0 +1,8 @@
+---
+title: "Deliverable 3.1 Quieter Rail"
+date: 2026-08-04
+lang: en
+---
+
+The first deliverable of the EU-funded QuieterRail WP3 project is now publicly available. The report reviews existing on-board rail roughness measurement technologies, their performance, challenges, and future developments. At M+P, we are also developing an open-source Acoustic Rail Roughness Toolbox and a technical guideline to support harmonised measurement and assessment of acoustic rail roughness.
+Read the [LinkedIn post](https://lnkd.in/p/euf6GtXT) and find the downloadable link of thereport there.

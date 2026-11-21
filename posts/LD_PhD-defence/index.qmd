@@ -1,0 +1,14 @@
+---
+title: "PhD Defence"
+date: 2025-04-02
+lang: en
+---
+
+On 2 April 2025, I defended my PhD thesis at Eindhoven University of Technology. My research explored how to stabilise burners and reduce thermoacoustic instabilities in combustion appliances.
+
+Read more about the defence and the research:
+
+- [My PhD defence post on LinkedIn](https://lnkd.in/p/eQhpQXnM)
+- [Innovation and collaboration with ORkli on LinkedIn](https://lnkd.in/p/egHcfecy)
+- [TU/e news article on stabilising burners for quieter combustion appliances](https://www.tue.nl/en/news-and-events/news-overview/02-04-2025-stabilizing-burners-to-prevent-thermoacoustic-instability-for-quieter-combustion-appliances)
+
