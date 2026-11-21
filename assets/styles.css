@@ -33,6 +33,7 @@ h2 { font-weight: 700; }
 .button-outline { color:var(--brand) !important; border:1px solid #cbd2e8; background:white; }
 .button-outline:hover { background:var(--soft); }
 .home-section { border-top:1px solid var(--line); margin-top:2.2rem; padding-top:1.3rem; }
+.home-section.spotlight-section { border-top: 0; }
 .home-section h2 { margin-bottom: 1rem; }
 .feature-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
 .feature-tile { background:var(--soft); border:1px solid var(--line); border-radius:.65rem; padding:1.2rem 1.25rem; }

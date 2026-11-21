@@ -77,7 +77,7 @@ Systems engineering, simulation, optimization and experimental validation.
 
 :::
 
-::: {.home-section}
+::: {.home-section .spotlight-section}
 
 ## Spotlight
 
