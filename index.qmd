@@ -25,7 +25,7 @@ listing:
 
 ### Hamed F. Ganji
 
-<span class="credentials">PhD · PDEng</span>
+<span class="credentials">PhD · EngD</span>
 
 <span class="person-subtitle">Acoustics, Waves & Vibrations</span>
 
@@ -40,6 +40,40 @@ listing:
 # My Approach to Engineering
 
 I am a multidisciplinary engineer and researcher specialising in acoustics, waves and vibrations. I combine scientific depth with ***system engineering***, ***technical project management***, and ***Agile practice in leadership*** to turn complex industrial and scientific challenges into robust, innovative solutions, and I enjoy connecting research, engineering design, and ***open-source software*** to create real-world impact.
+:::
+
+:::
+
+::: {.home-section}
+
+## Active projects
+
+::: {.feature-grid}
+
+::: {.feature-tile}
+### QuieterRail stakeholder research
+
+A European industry survey and interviews inform the requirements for onboard rail roughness monitoring.
+
+[Stakeholder research](projects.qmd#quieterrail-stakeholder-research)
+:::
+
+::: {.feature-tile}
+### Onboard rail roughness monitoring
+
+Technical guidance for measuring rail roughness acoustically from trains across European networks.
+
+[Monitoring guidance](projects.qmd#quieterrail-monitoring-guidance)
+:::
+
+::: {.feature-tile}
+### Rail roughness Python toolbox
+
+Open-source software to support implementation of onboard rail roughness monitoring.
+
+[Python toolbox](projects.qmd#quieterrail-python-toolbox)
+:::
+
 :::
 
 :::

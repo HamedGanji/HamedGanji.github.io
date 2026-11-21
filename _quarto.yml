@@ -18,8 +18,6 @@ website:
         href: index.qmd
       - text: Project
         href: projects.qmd
-      - text: Software
-        href: software.qmd
       - text: Post
         href: posts/index.qmd
       - text: Publications

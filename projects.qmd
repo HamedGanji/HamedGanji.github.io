@@ -6,6 +6,24 @@ format:
     theme: cosmo
 ---
 
+## QuieterRail {.projects-section}
+
+I contribute to Work Package 3 of [QuieterRail](https://cordis.europa.eu/project/id/101176865), a Horizon Europe project under Europe's Rail. My work focuses on onboard acoustic monitoring of rail roughness to support more effective rail grinding.
+
+### Stakeholder research {#quieterrail-stakeholder-research}
+
+I coordinate a European industry survey and interviews to understand the needs of stakeholders who measure and manage rail roughness.
+
+### Monitoring guidance {#quieterrail-monitoring-guidance}
+
+I develop harmonised technical guidance for onboard acoustic rail roughness monitoring across European rail networks.
+
+### Python toolbox {#quieterrail-python-toolbox}
+
+I develop an open-source Python toolbox to support the implementation of onboard rail roughness monitoring.
+
+## Academic research projects {.projects-section}
+
 ### Burner development and thermoacoustic instability
 
 I investigated how to improve thermoacoustic stability by combining flame groups with different acoustic responses on a single burner deck. The model represents the composite flame transfer function as a weighted sum of the individual responses. I used the Direct Conservative Stability criterion to identify stable gain and phase ranges, then assessed robustness using stability margins and Monte Carlo uncertainty analysis.
