@@ -15,8 +15,8 @@ website:
     left:
       - text: Home
         href: index.qmd
-      - text: Research
-        href: research.qmd
+      - text: Project
+        href: projects.qmd
       - text: Software
         href: software.qmd
       - text: Post
@@ -47,7 +47,9 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      dark: darkly
+      light: cosmo
     css: assets/styles.css
     toc: true
     code-copy: true
