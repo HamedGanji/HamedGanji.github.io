@@ -6,33 +6,6 @@ format:
     theme: cosmo
 ---
 
-## Acoustics and vibroacoustics {.projects-section}
-
-- Acoustic wave propagation, noise generation and control
-- Vibroacoustic modelling and measu rements
-- Acoustics of rail and infrastructure systems
-
-## Brake squeal phenomenon {.projects-section}
-
-- Friction-induced vibrations and noise
-- Brake system dynamics and stability
-- Experimental and computational investigations
-
-## Dynamics, stability, and inverse problems {.projects-section}
-
-- Modelling of dynamical systems and stability
-- Signal processing and inverse methods
-- Robust parameter inference from experimental observations
-
-## Systems engineering and innovation {.projects-section}
-
-- Multidisciplinary design and optimization
-- Simulation, prototyping, experimental validation
-- Reproducible computational workflows
-
-
-## Academic research projects {.projects-section}
-
 ### PhD · Burner development and thermoacoustic instability
 
 I investigated how to improve thermoacoustic stability by combining flame groups with different acoustic responses on a single burner deck. The model represents the composite flame transfer function as a weighted sum of the individual responses. I used the Direct Conservative Stability criterion to identify stable gain and phase ranges, then assessed robustness using stability margins and Monte Carlo uncertainty analysis.
@@ -49,7 +22,7 @@ I designed and tested a passive acoustic filter for 3D-printed custom earplugs, 
 
 [Read the PDEng thesis](https://research.utwente.nl/en/publications/development-of-a-flat-spectrum-filter-for-3d-printed-custom-made-/)
 
-### MSc · Aero-vibroacoustics of a plate–cavity system
+### Aero-vibroacoustics of a plate–cavity system
 
 I studied how a flexible panel over an acoustic cavity responds to supersonic flow before and after flutter. I coupled a nonlinear panel model based on von Kármán plate theory to a modal model of the cavity. Time-domain simulations examined how turbulent boundary-layer excitation and external noise affect panel stability, limit-cycle oscillations and sound transmission loss. A related study investigated higher-order piston theory for panel flutter at low supersonic speeds.
 
@@ -57,7 +30,7 @@ I studied how a flexible panel over an acoustic cavity responds to supersonic fl
 
 [Read the plate–cavity paper](https://arc.aiaa.org/doi/abs/10.2514/1.C034309)
 
-### BSc · Linear and nonlinear analysis of brake squeal
+### Linear and nonlinear analysis of brake squeal
 
 I used a minimal disc-brake model to investigate how friction between the pad and the rotating disc affects stability. A linear analysis captured the effect of friction using a Stribeck model, and a nonlinear time-domain analysis estimated the amplitude and frequency of the disc's wobbling motion during braking.
 
@@ -65,7 +38,7 @@ I used a minimal disc-brake model to investigate how friction between the pad an
 
 [Read the brake dynamics paper](https://aip.scitation.org/doi/10.1063/1.4979609)
 
-### BSc · Analytical modelling of shallow-water waves
+### Analytical modelling of shallow-water waves
 
 In this team project, I studied travelling waves in the Jaulent–Miodek and coupled Whitham–Broer–Kaup equations. I applied the Differential Transformation Method (DTM) and Reduced Differential Transformation Method (RDTM) to obtain analytical solutions.
 
