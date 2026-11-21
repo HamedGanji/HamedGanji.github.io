@@ -3,21 +3,32 @@ title: "Publications"
 description: "Journal papers, doctoral research and conference publications"
 ---
 
-## Doctoral research
+## Doctoral research {.publication-section}
 
-**Burner Development Strategies in the Context of Thermoacoustic Instability**  
+[**Burner Development Strategies in the Context of Thermoacoustic Instability**](https://research.tue.nl/p/en/research-outputs/burner-development-strategies-in-the-context-of-thermoacoustic-in)  
 PhD thesis, Eindhoven University of Technology (2025).
 
-## Journal papers
+[**Development of a flat spectrum filter for 3D printed custom-made hearing protection**](https://research.utwente.nl/en/publications/development-of-a-flat-spectrum-filter-for-3d-printed-custom-made-/)  
+EngD thesis, University of Twente (2020).
 
-Add your verified publications here, preferably with DOI links. A consistent format is:
+## Peer-reviewed journal publications {.publication-section}
 
-> Author(s). (Year). **Article title**. *Journal title*. [DOI](https://doi.org/).
+1. **Ganji, H. F.**, Kornilov, V., van Oijen, J. (2026). [Reconstruction of the reflection coefficient downstream of a flame from dual SISO acoustic measurements of flame](https://www.sciencedirect.com/science/article/pii/S0003682X25005146). *Applied Acoustics*, 242, 111042.
+2. **Ganji, H. F.**, Kornilov, V., Lopez Arteaga, I., de Goey, P., van Oijen, J. (2025). [A framework for obtaining frequency-dependent stability maps to mitigate thermoacoustic instabilities](https://www.sciencedirect.com/science/article/pii/S0010218024005455). *Combustion and Flame*, 272, 113836.
+3. **Ganji, H. F.**, Kornilov, V., van Oijen, J., Lopez Arteaga, I., de Goey, P. (2024). [Thermoacoustic stability analysis and robust design of burner-deck-anchored flames using flame transfer function composition](https://www.sciencedirect.com/science/article/pii/S0010218024003407). *Combustion and Flame*, 269, 113631.
+4. **Ganji, H. F.**, Kornilov, V., van Oijen, J., Lopez Arteaga, I., de Goey, P. (2024). [Assessing thermoacoustic quality in combustion systems using the stability quality factor $\mathcal{S}$](https://journals.sagepub.com/doi/10.1177/17568277241288372). *International Journal of Spray and Combustion Dynamics*, 16(4).
+5. **Ganji, H. F.**, Kornilov, V., van Oijen, J., Lopez Arteaga, I., de Goey, P. (2024). [Discussing the limitations of unconditional stability indicators in evaluating thermoacoustic quality of burners with flames](https://journals.sagepub.com/doi/10.1177/17568277241265433). *International Journal of Spray and Combustion Dynamics*, 16(4), 231–246.
+6. **Ganji, H. F.**, Dowell, E. H. (2017). [Sound transmission and radiation from a plate–cavity system in supersonic flow](https://arc.aiaa.org/doi/abs/10.2514/1.C034309). *Journal of Aircraft*, 54(5), 1877–1900.
+7. **Ganji, H. F.**, Ganji, D. D. (2017). [Effects of equilibrium point displacement in limit cycle oscillation amplitude, critical frequency and prediction of critical input angular velocity in minimal brake system](https://aip.scitation.org/doi/10.1063/1.4979609). *AIP Advances*, 7(4).
+8. **Ganji, H. F.**, Dowell, E. H. (2016). [Panel flutter prediction in two dimensional flow with enhanced piston theory](https://www.sciencedirect.com/science/article/pii/S0889974616000396). *Journal of Fluids and Structures*, 63, 97–102.
+9. **Ganji, H. F.**, Jouya, M., Mirhosseini-Amiri, S. A., Ganji, D. D. (2016). [Traveling wave solution by differential transformation method and reduced differential transformation method](https://www.sciencedirect.com/science/article/pii/S1110016816300680). *Alexandria Engineering Journal*, 55(3), 2985–2994.
+10. **Ganji, H. F.**, Dowell, E. H. (2016). [Investigation of higher order effects in linear piston theory](http://nonlinearstudies.com/index.php/mesa/article/view/1287). *Mathematics in Engineering, Science and Aerospace*, 7(1), 93–103.
 
-## Conference publications
+## Selected peer-reviewed conference papers {.publication-section}
 
-Add selected conference papers, presentations and proceedings here.
+1. **Ganji, H. F.**, Kornilov, V., van Oijen, J., Lopez Arteaga, I. (2024). [Reconstruction of the reflection coefficient downstream of a flame from dual SISO flame response measurements](https://asmedigitalcollection.asme.org/GT/proceedings-abstract/GT2024/87943/V03AT04A015/1203898). *Proceedings of ASME Turbo Expo 2024: Turbomachinery Technical Conference and Exposition*, London, UK.
+2. **Ganji, H. F.**, Kornilov, V., Lopez Arteaga, I., de Goey, P. (2024). [Numerical investigation on the strategy of separating burner–flame thermoacoustics](https://www.ingentaconnect.com/content/ince/incecp/2024/00000270/00000002/art00012). *Proceedings of the 53rd International Congress and Exposition on Noise Control Engineering (INTER-NOISE 2024)*, Nantes, France.
+3. **Ganji, H. F.**, Kornilov, V., van Oijen, J., Lopez Arteaga, I. (2022). [Assessment of the acoustic scattering matrix of a heat exchanger using ssCFD–LNSE simulation](https://www.ioa.org.uk/catalogue/paper/assessment-acoustic-scattering-matrix-heat-exchanger-using-sscfd-lnse-simulation). *INTER-NOISE 2022*.
+4. Aravinth, D., Shinde, P., Misra, A., Sucheendran, M. M., **Ganji, H. F.** (2018). [Dynamic aeroelasticity of a trapezoidal wing using enhanced piston theory](https://arc.aiaa.org/doi/abs/10.2514/6.2018-1443). *2018 AIAA/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference*, Kissimmee, FL, USA.
 
-::: {.callout-tip}
-Later we can generate this page automatically from your Zotero/BibTeX library, like Robin Lovelace's automated publications page.
-:::
+For the latest publication record, see my [Google Scholar profile](https://scholar.google.com/citations?user=QPmfwzwAAAAJ&hl=en).

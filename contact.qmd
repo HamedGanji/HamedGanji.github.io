@@ -3,10 +3,6 @@ title: "Contact"
 toc: false
 ---
 
-For research collaboration, technical discussions, or professional enquiries, please contact me using one of the links below.
+I enjoy exchanging ideas on interdisciplinary research, scientific software, and innovative engineering. Feel free to reach out for discussions, questions, or potential opportunities.
 
-- **GitHub:** [View my profile](https://github.com/YOUR_GITHUB_USERNAME)
-- **LinkedIn:** *Add your public LinkedIn profile URL*
-- **Email:** *Add an address you are comfortable publishing publicly*
-
-I am based in the Netherlands.
+[Contact me →](mailto:h.faghanpourganji@tue.nl)

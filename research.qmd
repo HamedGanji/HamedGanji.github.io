@@ -26,3 +26,45 @@ Research interests span physical modelling, computation, experimentation, and en
 ::: {.callout-note}
 The descriptions above are a starting point. Replace them with selected, publicly shareable projects and precise links to publications.
 :::
+
+::: {.home-section}
+
+## Research & Work Portfolio
+
+::: {.feature-grid}
+
+::: {.feature-tile}
+### Rail induced vibrations
+
+Modelling, measurements, noise control and dynamic systems.
+
+[Research topics →](research.qmd)
+:::
+
+::: {.feature-tile}
+### Railway noise
+
+Modelling, measurements, noise control and dynamic systems.
+
+[Research topics →](research.qmd)
+:::
+
+::: {.feature-tile}
+### Scientific computing
+
+Python, signal processing, inverse problems and reproducible analysis.
+
+[Technical articles →](posts/index.qmd)
+:::
+
+::: {.feature-tile}
+### Engineering innovation
+
+Systems engineering, simulation, optimization and experimental validation.
+
+[Projects & software →](software.qmd)
+:::
+
+:::
+
+:::

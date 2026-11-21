@@ -1,6 +1,6 @@
 ---
-title: "Scientific Articles"
-description: "Scientific writing and technical notes"
+title: ""
+description: "News, project updates, and reflections on our work—curated from our announcements and LinkedIn posts"
 listing:
   contents: "*/index.qmd"
   type: default
@@ -9,4 +9,3 @@ listing:
   feed: true
 ---
 
-Notes on acoustics, mathematical modelling, scientific computing and engineering. Code examples are provided for reproducible learning where appropriate.

@@ -8,4 +8,4 @@ format:
 
 [Download CV als PDF](/cv.pdf){.btn .btn-primary}
 
-Bekijk het [volledige Engelstalige cv](../cv.qmd) voor mijn profiel, ervaring, opleiding en publicaties.
+Ga naar de [Engelstalige cv-pagina](../cv.qmd).

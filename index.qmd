@@ -29,7 +29,8 @@ listing:
 
 <span class="person-subtitle">Acoustics, Waves & Vibrations</span>
 
-[GitHub](https://github.com/HamedGanji){.button .button-outline} [Email](mailto:h.faghanpourganji@tue.nl){.button .button-outline} [Google Scholar](https://scholar.google.com/citations?user=QPmfwzwAAAAJ&hl=en){.button .button-outline} [Linkedin](https://www.linkedin.com/in/hamed-f-ganji-684522166){.button .button-outline}
+[GitHub](https://github.com/HamedGanji){.button .button-outline} [Email](mailto:h.faghanpourganji@tue.nl){.button .button-outline} [Google Scholar](https://scholar.google.com/citations?user=QPmfwzwAAAAJ&hl=en){.button .button-outline} 
+[Linkedin](https://www.linkedin.com/in/hamed-f-ganji-684522166){.button .button-outline}
 
 :::
 
@@ -39,40 +40,6 @@ listing:
 # Builder of solution
 
 I am a multidisciplinary engineer and researcher specialising in acoustics, waves and vibrations. I combine scientific depth with systems engineering, technical project management, and Agile practice to turn complex industrial and scientific challenges into robust, innovative solutions, and I enjoy connecting research, engineering design, and open-source software to create real-world impact.
-:::
-
-:::
-
-::: {.home-section}
-
-## Focus areas
-
-::: {.feature-grid}
-
-::: {.feature-tile}
-### Acoustics & vibration
-
-Modelling, measurements, noise control and dynamic systems.
-
-[Research topics →](research.qmd)
-:::
-
-::: {.feature-tile}
-### Scientific computing
-
-Python, signal processing, inverse problems and reproducible analysis.
-
-[Technical articles →](posts/index.qmd)
-:::
-
-::: {.feature-tile}
-### Engineering innovation
-
-Systems engineering, simulation, optimization and experimental validation.
-
-[Projects & software →](software.qmd)
-:::
-
 :::
 
 :::
@@ -87,26 +54,17 @@ Systems engineering, simulation, optimization and experimental validation.
 
 **Farid Award (2022):** I was honoured to receive the Farid Award, established in memory of Dr. Farid Hosseinizadeh, an assistant professor at Babol Noshirvani University of Technology who passed away far too young. The award recognises promising early-career researchers. It is especially meaningful to me because it was granted by my hometown university.
 
+
 :::
 
-::: {.home-section}
+::: {.home-section .latest-posts-section}
 
-## Latest posts
+## Latest Posts
 
 ::: {#latest-posts-listing}
 :::
 
 [All posts](posts/index.qmd)
-
-:::
-
-::: {.home-section}
-
-## Get in touch
-
-I enjoy exchanging ideas on interdisciplinary research, scientific software, and innovative engineering. Feel free to reach out for discussions, questions, or potential opportunities.
-
-[Contact me →](mailto:h.faghanpourganji@tue.nl)
 
 :::
 
