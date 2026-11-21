@@ -39,7 +39,7 @@ listing:
 
 # Builder of solution
 
-I am a multidisciplinary engineer and researcher specialising in acoustics, waves and vibrations. I combine scientific depth with *system engineering*, *technical project management*, and *Agile practice in leadership* to turn complex industrial and scientific challenges into robust, innovative solutions, and I enjoy connecting research, engineering design, and *open-source software* to create real-world impact.
+I am a multidisciplinary engineer and researcher specialising in acoustics, waves and vibrations. I combine scientific depth with ***system engineering***, ***technical project management***, and ***Agile practice in leadership*** to turn complex industrial and scientific challenges into robust, innovative solutions, and I enjoy connecting research, engineering design, and ***open-source software*** to create real-world impact.
 :::
 
 :::
