@@ -6,7 +6,7 @@ format:
     theme: cosmo
 ---
 
-### PhD · Burner development and thermoacoustic instability
+### Burner development and thermoacoustic instability
 
 I investigated how to improve thermoacoustic stability by combining flame groups with different acoustic responses on a single burner deck. The model represents the composite flame transfer function as a weighted sum of the individual responses. I used the Direct Conservative Stability criterion to identify stable gain and phase ranges, then assessed robustness using stability margins and Monte Carlo uncertainty analysis.
 
