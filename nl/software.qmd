@@ -31,7 +31,7 @@ Models and numerical methods for studying dynamic response, stability, and physi
 
 :::
 
-Visit [my GitHub profile](https://github.com/YOUR_GITHUB_USERNAME) to explore public code repositories when available.
+Visit [my GitHub profile](https://github.com/HamedGanji) to explore public code repositories when available.
 
 ::: {.callout-important}
 Do not publish employer-owned source code, client data, unpublished proprietary reports, or confidential datasets without authorization.

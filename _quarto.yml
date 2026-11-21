@@ -9,6 +9,7 @@ project:
 
 website:
   title: "Hamed F. Ganji"
+  site-url: https://hamedganji.github.io
   description: "Research, engineering, acoustics, vibration and scientific computing."
   navbar:
     title: "Hamed F. Ganji"
@@ -36,12 +37,12 @@ website:
           - text: "Nederlands"
             href: nl/index.qmd
       - icon: github
-        href: https://github.com/YOUR_GITHUB_USERNAME
+        href: https://github.com/HamedGanji
         aria-label: GitHub profile
 
   page-footer:
     left: "© 2026 Hamed F. Ganji"
-    right: "Built with [Quarto](https://quarto.org) · [GitHub](https://github.com/YOUR_GITHUB_USERNAME)"
+    right: "Built with [Quarto](https://quarto.org) · [GitHub](https://github.com/HamedGanji)"
   search: true
   back-to-top-navigation: true
 
