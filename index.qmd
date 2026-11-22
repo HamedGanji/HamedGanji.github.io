@@ -11,6 +11,13 @@ include-in-header:
       <link rel="canonical" href="https://hamedganji.github.io/">
       <meta property="og:url" content="https://hamedganji.github.io/">
       <meta property="og:type" content="website">
+      <script>
+        const homepageUrl = new URL(window.location.href);
+        if (homepageUrl.searchParams.get("preview") !== "1") {
+          homepageUrl.searchParams.set("preview", "1");
+          window.history.replaceState(window.history.state, "", homepageUrl);
+        }
+      </script>
 title-block-banner: false
 page-layout: full
 toc: false
@@ -43,8 +50,6 @@ listing:
 [GitHub](https://github.com/HamedGanji){.button .button-outline} [Email](mailto:h.faghanpourganji@tue.nl){.button .button-outline} [Google Scholar](https://scholar.google.com/citations?user=QPmfwzwAAAAJ&hl=en){.button .button-outline} 
 [Linkedin](https://www.linkedin.com/in/hamed-f-ganji-684522166){.button .button-outline}
 
-[Shareable link](https://hamedganji.github.io/?preview=1){.button .button-outline}
-
 :::
 
 ::: {.hero-copy}
@@ -52,10 +57,9 @@ listing:
 
 # My Approach to Engineering
 
-I am a researcher and engineer specialising in acoustics, waves and vibrations. 
-My work combines physics-based and system identification for digital twining of acoustic and vibration systems, enabling accurate modeling and prediction of their behavior in both academic and industrial contexts, and facilitating the design of effective interventions and solutions in real-world applications. I have applied this approach to acoustic and vibration systems across academic and industrial settings, including thermoacoustics instabilities of combustion systems, aero-vibroacoustics, structural dynamics, railway noise, and ground-borne vibration.
+My work combines physics-based modelling and system identification to build digital twins of acoustic and vibration systems, enabling accurate prediction of their behaviour and the design of effective interventions. I have applied this approach in both academic and industrial settings, including thermoacoustic instabilities in combustion systems, aero-vibroacoustics, structural dynamics, railway noise, and ground-borne vibration. I use and contribute to ***open-source software*** to connect research with engineering design.
 
-I combine scientific depth with ***system engineering***, ***technical project management***, and ***Agile practice in leadership*** to turn complex industrial and scientific challenges into robust, innovative solutions, and I enjoy connecting research, engineering design, and ***open-source software*** to create real-world impact.
+Alongside the research, I use my expertise in system engineering and Agile practice in leadership in the various projects I am responsible as a manager of the team, ensuring effective collaboration and top-quality delivery to the stakeholders.
 
 :::
 
