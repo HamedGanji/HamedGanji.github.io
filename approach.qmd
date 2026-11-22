@@ -1,0 +1,12 @@
+---
+title: "Approach"
+description: "My approach to systems engineering, architecture and Agile methodology."
+---
+
+## Systems Engineering & Architecture {#systems-engineering-and-architecture}
+
+I use systems engineering and architecture principles to connect stakeholder needs with technical decisions. This means considering the system as a whole, its components and their interfaces, and using modelling and validation to support effective engineering solutions.
+
+## Agile Methodology {#agile-methodology}
+
+I apply Agile practices to support collaboration in multidisciplinary teams and adapt to changing project needs. By working iteratively, reviewing progress and incorporating feedback, I aim to deliver high-quality outcomes for clients and public stakeholders.

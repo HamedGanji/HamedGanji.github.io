@@ -55,12 +55,11 @@ listing:
 ::: {.hero-copy}
 
 
-# My Approach to Engineering
+# My Work in Research and Engineering
 
-My work combines physics-based modelling and system identification to build digital twins of acoustic and vibration systems, enabling accurate prediction of their behaviour and the design of effective interventions. I have applied this approach in both academic and industrial settings, including thermoacoustic instabilities in combustion systems, aero-vibroacoustics, structural dynamics, railway noise, and ground-borne vibration. I use and contribute to ***open-source software*** to connect research with engineering design.
+My work combines physics-based modelling and system identification to develop digital twins of acoustic and vibration systems, enabling accurate predictions and effective engineering solutions. My work spans a range of applications, as described in my [projects](projects.qmd). I also use and contribute to open-source software to bridge research and engineering practice.
 
-Alongside the research, I use my expertise in system engineering and Agile practice in leadership in the various projects I am responsible as a manager of the team, ensuring effective collaboration and top-quality delivery to the stakeholders.
-
+Alongside my research activities, I apply [systems engineering & architecture](approach.qmd#systems-engineering-and-architecture) principles and [Agile methodologies](approach.qmd#agile-methodology) to lead multidisciplinary teams and manage industrial projects. My approach emphasises effective collaboration, structured problem-solving, and delivering high-quality outcomes for clients and public stakeholders.
 :::
 
 :::

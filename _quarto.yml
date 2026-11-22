@@ -20,6 +20,8 @@ website:
     left:
       - text: Home
         href: index.qmd
+      - text: Approach
+        href: approach.qmd
       - text: Project
         href: projects.qmd
       - text: Post
