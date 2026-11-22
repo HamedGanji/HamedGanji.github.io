@@ -3,6 +3,15 @@ title: ""
 open-graph:
   title: "Hamed F. Ganji"
   description: "Research and engineering in acoustics, waves, vibration, and scientific computing."
+twitter-card:
+  title: "Hamed F. Ganji"
+  description: "Research and engineering in acoustics, waves, vibration, and scientific computing."
+  card-style: summary
+include-in-header:
+  - text: |
+      <link rel="canonical" href="https://hamedganji.github.io/">
+      <meta property="og:url" content="https://hamedganji.github.io/">
+      <meta property="og:type" content="website">
 title-block-banner: false
 page-layout: full
 toc: false
