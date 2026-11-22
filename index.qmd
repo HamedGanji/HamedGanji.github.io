@@ -1,11 +1,10 @@
 ---
 title: ""
+description: "Research and engineering in acoustics, waves, vibration, and scientific computing."
 open-graph:
   title: "Hamed F. Ganji"
-  description: "Research and engineering in acoustics, waves, vibration, and scientific computing."
 twitter-card:
   title: "Hamed F. Ganji"
-  description: "Research and engineering in acoustics, waves, vibration, and scientific computing."
   card-style: summary
 include-in-header:
   - text: |
