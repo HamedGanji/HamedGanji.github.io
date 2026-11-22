@@ -11,6 +11,9 @@ website:
   title: "Hamed F. Ganji"
   site-url: https://hamedganji.github.io
   description: "Research, engineering, acoustics, vibration and scientific computing."
+  image: assets/hamed-ganji.jpg
+  image-alt: "Portrait of Hamed F. Ganji"
+  open-graph: true
   navbar:
     title: "Hamed F. Ganji"
     left:

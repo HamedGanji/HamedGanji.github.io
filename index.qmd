@@ -1,5 +1,8 @@
 ---
 title: ""
+open-graph:
+  title: "Hamed F. Ganji"
+  description: "Research and engineering in acoustics, waves, vibration, and scientific computing."
 title-block-banner: false
 page-layout: full
 toc: false
