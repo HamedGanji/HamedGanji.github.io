@@ -39,7 +39,9 @@ listing:
 
 ::: {.person-panel}
 
-![](assets/hamed-ganji.jpg){.portrait fig-alt="Portrait of Hamed F. Ganji"}
+::: {.profile-photo-frame}
+![](assets/hamed-ganji.jpg){.profile-photo fig-alt="Photo of Hamed F. Ganji"}
+:::
 
 ### Hamed F. Ganji
 

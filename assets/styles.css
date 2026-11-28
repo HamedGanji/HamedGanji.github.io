@@ -39,7 +39,9 @@ h2.projects-section,
 .home-wrap { max-width: 1130px; margin: 0 auto; padding: 2.6rem 1.1rem 4rem; }
 .hero { display: grid; grid-template-columns: 300px minmax(0,1fr); gap: 3.3rem; align-items: center; margin: 0 0 1.5rem; }
 .person-panel { text-align: center; border-right: 1px solid var(--line); padding: 0 2.6rem 0 .6rem; }
-.person-panel .portrait { display:block; width: 196px; height: 196px; object-fit: cover; border-radius: 50%; margin: 0 auto 1.1rem; box-shadow: 0 12px 24px rgba(41,46,122,.09); }
+.person-panel .profile-photo-frame { width: min(196px, 100%); aspect-ratio: 1; overflow: hidden; border-radius: 50%; margin: 0 auto 1.1rem; }
+.person-panel .profile-photo-frame p { margin: 0; }
+.person-panel .profile-photo { display: block; box-sizing: border-box; width: 100%; aspect-ratio: 1; height: auto; padding: 4px; object-fit: contain; background: #fff; transform: translateY(6%) scale(1.2144); }
 .person-panel h3 { font-size: 1.55rem; margin: .25rem 0 .15rem; }
 .credentials { font-size: .88rem; font-weight: 700; color: var(--brand); }
 .person-subtitle { display:block; font-size: .88rem; color: var(--muted); line-height: 1.6; margin: .8rem 0 1.1rem; }
